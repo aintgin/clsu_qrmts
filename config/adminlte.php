@@ -219,11 +219,11 @@ return [
           ],
         ],
         [
-          'text' => 'Customers',
+          'text' => 'Supplies',
           'icon' => 'shopping-cart',
           'submenu' => [
             [
-              'text' => 'New customer',
+              'text' => 'New Supplier',
               'icon' => 'plus',
               'url' => '/customers/create',
             ],
@@ -260,6 +260,11 @@ return [
           'text' => 'Settings',
           'icon' => 'cogs',
           'url' => '/settings',
+        ],
+        [
+          'text' => 'Forms',
+          'icon' => 'cogs',
+          'url' => '',
         ],
     ],
 
